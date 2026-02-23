@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f9fafc;
+  --bg-tertiary: #BFDEB9;
+  --text-primary: #1f2937;
+  --text-secondary: #4b5563;
+  --accent-color: #FE6700;
+  --accent-hover: #e68900;
+  --card-bg: #ffffff;
+  --border-color: #d1d5db;
+  --shadow-color: rgba(0, 0, 0, 0.08);
+  --header-bg: rgba(0, 0, 0, 0.6);
+  --footer-bg: #195526;
+  --whatsapp-color: #25d366;
+  --whatsapp-hover: #1ebe57;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+[data-theme="dark"] {
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #2d2d2d;
+  --bg-tertiary: #2d4a2d;
+  --text-primary: #ffffff;
+  --text-secondary: #e0e0e0;
+  --accent-color: #ff8533;
+  --accent-hover: #ff9933;
+  --card-bg: #333333;
+  --border-color: #404040;
+  --shadow-color: rgba(255, 255, 255, 0.05);
+  --header-bg: rgba(0, 0, 0, 0.8);
+  --footer-bg: #0a2b0a;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.App-header {
-  background-color: #282c34;
+.app {
   min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.fixed-controls {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
-@keyframes App-logo-spin {
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent-color);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-hover);
+}
+
+@keyframes fadeIn {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
+    transform: translateY(20px);
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease forwards;
+}
+
+@media (max-width: 768px) {
+  .fixed-controls {
+    top: 10px;
+    right: 10px;
   }
 }

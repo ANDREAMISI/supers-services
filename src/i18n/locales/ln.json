@@ -1,0 +1,90 @@
+{
+  "header": {
+    "home": "Ebandeli",
+    "about": "Likolo",
+    "services": "Mosala",
+    "clients": "Banyaku",
+    "contact": "Kosangana"
+  },
+  "home": {
+    "title": "Biloko ya sika na motema",
+    "subtitle1": "Na",
+    "subtitle2": "bimeli na biso",
+    "description": "Ets Supers Services ezali compagnie ya Congo oyo ezali na Kananga, ezali kosala na communication visuelle, imprimerie, décoration, nettoyage ya mayele mpe services généraux.",
+    "contactBtn": "Bisengela"
+  },
+  "about": {
+    "title": "Likolo na biso",
+    "creation": "Ebandeli",
+    "creationDesc1": "Ets Supers Services ezali entreprise ya Congo oyo ebandaki na 27 Augústo 2020.",
+    "creationDesc2": "Ekomatisi na Registre ya Commerce na Crédit Mobilier (RCCM) na nimero oyo:",
+    "rccm": "CD/KGA/RCCM/20-A-00044",
+    "taxNumber": "Nimero ya Mpaku: A2042180W",
+    "nationalId": "Nimero ya Identification Nationale: 15-G4701-N65782Y",
+    "objective": "Likanisi",
+    "objectiveDesc": "Entreprise ebandelama na Kananga mpo na kobongisa nzela mpe kitoko ya mosala oyo:",
+    "services": {
+      "visualCom": "Communication visuelle",
+      "printing": "Kopekisa mpe kobimisa",
+      "decoration": "Biloko ya kitoko",
+      "general": "Mosala ya ndenge na ndenge"
+    },
+    "vision": "Engelé",
+    "visionDesc": "Engelé na biso ezali kosepelisa banyaku na biso na:",
+    "visionPoints": {
+      "quality": "Mosala mingi ya kitoko",
+      "prices": "Mbongo ya malamu",
+      "delays": "Kokokisa ngonga na tango"
+    }
+  },
+  "services": {
+    "title": "Mosala na biso",
+    "printing": {
+      "title": "Kopekisa, Kopolisa mpe Koyamba",
+      "items": [
+        "Kopekisa na biloko ndenge na ndenge",
+        "Kokoma noir na couleur",
+        "Photo ya passeport ya mayele",
+        "Kopekisa ya monene",
+        "Kokela ba design",
+        "Kokanga mpe kofuta"
+      ]
+    },
+    "painting": {
+      "title": "Kopakola penty mpe kobongisa",
+      "items": [
+        "Mosala ya penty na ndako",
+        "Panneaux ya publicité",
+        "Kobongisa intérieur na extérieur",
+        "Kosala penty na mboka"
+      ]
+    },
+    "cleaning": {
+      "title": "Kopetola mpe kobatela",
+      "items": [
+        "Kopetola bureau mpe bandako",
+        "Koboma ba rats mpe ba insectes",
+        "Bisaleli mike",
+        "Kopetola jardin mpe véhicules"
+      ]
+    },
+    "catering": {
+      "title": "Mosala ya bilei",
+      "items": [
+        "Petit-déjeuner na collation",
+        "Dîner ya mosala",
+        "Kobongisa feti",
+        "Masanga mpe jus ya nature"
+      ]
+    },
+    "other": {
+      "title": "Mosala mosusu",
+      "items": [
+        "Kobongisa feti",
+        "Bobongoli monoko",
+        "Komema mpe kotombola",
+        "Kobongisa ordinateur mpe réseau"
+      ]
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "header": {
+    "home": "Nyumbani",
+    "about": "Kuhusu",
+    "services": "Huduma",
+    "clients": "Wateja",
+    "contact": "Wasiliana"
+  },
+  "home": {
+    "title": "Ubunifu na Usahihi Kiini",
+    "subtitle1": "Ya",
+    "subtitle2": "uchapishaji wetu",
+    "description": "Ets Supers Services ni kampuni ya Kongo yenye nguvu iliyoko Kananga, mtaalamu katika mawasiliano ya kuona, uchapishaji, mapambo, usafi wa kitaalamu na huduma za jumla.",
+    "contactBtn": "Wasiliana nasi"
+  },
+  "about": {
+    "title": "Kuhusu sisi",
+    "creation": "Uumbaji",
+    "creationDesc1": "Ets Supers Services ni biashara binafsi ya sheria ya Kongo iliyoanzishwa tarehe 27 Agosti 2020.",
+    "creationDesc2": "Imesajiliwa katika Rejesta ya Biashara na Rehani ya Mali ya Kibinafsi (RCCM) chini ya nambari:",
+    "rccm": "CD/KGA/RCCM/20-A-00044",
+    "taxNumber": "Nambari ya Ushuru: A2042180W",
+    "nationalId": "Nambari ya Utambulisho ya Kitaifa: 15-G4701-N65782Y",
+    "objective": "Lengo",
+    "objectiveDesc": "Kampuni ilianzishwa Kananga kwa lengo la kuboresha upatikanaji na ubora wa huduma za:",
+    "services": {
+      "visualCom": "Mawasiliano ya kuona",
+      "printing": "Uchapishaji na uigaji",
+      "decoration": "Mapambo",
+      "general": "Huduma za jumla"
+    },
+    "vision": "Maono",
+    "visionDesc": "Maono yetu ni kuridhisha wateja wetu kila wakati kwa kutoa:",
+    "visionPoints": {
+      "quality": "Huduma mbali mbali za ubora",
+      "prices": "Bei za ushindani sana",
+      "delays": "Muda ulioboreshwa wa uwasilishaji"
+    }
+  },
+  "services": {
+    "title": "Huduma Zetu",
+    "printing": {
+      "title": "Uchapishaji, Uchapishaji wa Picha na Upigaji Picha",
+      "items": [
+        "Uchapishaji kwenye nyaraka mbalimbali",
+        "Nakala nyeusi na rangi",
+        "Picha za pasipoti za kitaalamu",
+        "Uchapishaji wa muundo mkubwa",
+        "Ubunifu wa picha",
+        "Kufunga na kufunika"
+      ]
+    },
+    "painting": {
+      "title": "Uchoraji na Mapambo",
+      "items": [
+        "Kazi ya uchoraji wa majengo",
+        "Mabango ya matangazo",
+        "Mapambo ya ndani na nje",
+        "Utengenezaji wa rangi ya ndani"
+      ]
+    },
+    "cleaning": {
+      "title": "Usafi na Matengenezo",
+      "items": [
+        "Matengenezo ya ofisi na makazi",
+        "Kuondoa panya na wadudu",
+        "Matengenezo madogo",
+        "Utunzaji wa bustani na usafi wa magari"
+      ]
+    },
+    "catering": {
+      "title": "Huduma ya Upishi",
+      "items": [
+        "Kiamsha kinywa na vitafunio",
+        "Chakula cha jioni cha kitaalamu",
+        "Uandaaji wa sherehe",
+        "Vinywaji na juisi za kikaboni"
+      ]
+    },
+    "other": {
+      "title": "Huduma Nyingine za Juu",
+      "items": [
+        "Uandaaji wa sherehe",
+        "Tafsiri na ukalimani",
+        "Usafiri na upakiaji",
+        "Matengenezo ya kompyuta na mtandao"
+      ]
+    }
+  },
+  "clients": {
+    "title": "Wateja Wakuu",
+    "intro": "Tangu kuanzishwa kwake, <strong>Ets Supers Services</strong> imeweza kupata imani ya mashirika ya kitaifa na kimataifa kwa taaluma yake, ukakamavu na kufuata kali kwa muda.",
+    "un": {
+      "title": "Mashirika ya Umoja wa Mataifa",
+      "description": "Tunashirikiana na mashirika kadhaa ya Umoja wa Mataifa kama <strong>PNUD</strong>, <strong>UNFPA</strong> na <strong>UNHCR</strong>, tukitoa huduma zinazofaa viwango vya kimataifa."
+    },
+    "ngo": {
+      "title": "Mashirika Yasiyo ya Kiserikali ya Kimataifa",
+      "description": "Washirika wetu ni pamoja na mashirika yasiyo ya kiserikali ya kimataifa kama <strong>Catholic Relief Services</strong>, <strong>COOPI</strong> na <strong>Cordaid</strong>, ambao tunawapa ufumbuzi wa kuaminika na ufanisi."
+    },
+    "companies": {
+      "title": "Makampuni na Taasisi",
+      "description": "Pia tunashirikiana na makampuni binafsi, taasisi za serikali na utawala wa umma katika miradi yao mbalimbali."
+    },
+    "schools": {
+      "title": "Shule na Vyama",
+      "description": "Utaalam wetu unaenea kwa shule, makanisa, vyama vya ndani na watu binafsi, kwa kutoa huduma zinazoweza kufikiwa na za ubora wa juu."
+    },
+    "conclusion": "Ahadi yetu ni kujenga ushirikiano wa kudumu unaozingatia uaminifu, ubora na ufanisi wa kiutendaji."
+  },
+  "contact": {
+    "title": "Wasiliana Nasi",
+    "address": "Anwani",
+    "addressLine1": "N°58, Avenue des Cadets",
+    "addressLine2": "Quartier Kamayi",
+    "addressLine3": "Kananga – RDC",
+    "phone": "Simu",
+    "email": "Barua pepe",
+    "note": "Tupo tayari kwa maombi yako ya bei, ushirikiano na ushirikiano wa kitaalamu.",
+    "form": {
+      "name": "Jina lako",
+      "email": "Barua pepe yako",
+      "phone": "Nambari yako ya simu",
+      "message": "Ujumbe wako",
+      "send": "Tuma ujumbe",
+      "sending": "Inatuma...",
+      "success": "✅ Ujumbe umetumwa kwa mafanikio!"
+    },
+    "whatsapp": "Wasiliana kwa WhatsApp"
+  },
+  "footer": {
+    "company": "Ets Supers Services",
+    "description": "Kampuni ya Kongo iliyosajiliwa katika Jamhuri ya Kidemokrasia ya Kongo, mtaalamu wa uchapishaji, mawasiliano ya kuona, mapambo, usafi wa kitaalamu na huduma za jumla.",
+    "rccm": "CD/KGA/RCCM/20-A-00044",
+    "nationalId": "15-G4701-N65782Y",
+    "taxNumber": "A2042180W",
+    "quickLinks": "Viungo vya Haraka",
+    "followUs": "Tufuate",
+    "followUsText": "Endelea kuwasiliana nasi kwenye mitandao yetu ya kijamii.",
+    "rights": "© 2026 Ets Supers Services - Haki zote zimehifadhiwa"
+  }
+}

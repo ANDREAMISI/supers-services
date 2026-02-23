@@ -1,0 +1,257 @@
+.header_container {
+  position: relative;
+  background-image: url(../../assets/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: var(--header-bg);
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: background 0.3s ease;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  transition: all 0.3s ease;
+  background: transparent;
+}
+
+.header.scrolled {
+  background: var(--bg-primary);
+  padding: 15px 60px;
+  box-shadow: 0 2px 20px var(--shadow-color);
+}
+
+.header.scrolled .nav a {
+  color: var(--text-primary);
+}
+
+.logo {
+  width: 130px;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.logo img {
+  width: 100%;
+}
+
+.nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.nav a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--accent-color);
+  transition: width 0.3s ease;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+.nav a:hover {
+  color: var(--accent-color);
+}
+
+.home {
+  position: relative;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+  z-index: 2;
+}
+
+.home_text {
+  max-width: 600px;
+  animation: slideInLeft 1s ease;
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.home_text h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.home_text h2 {
+  font-size: 2rem;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+}
+
+.home_text span {
+  color: white;
+  font-size: 1.4rem;
+}
+
+.home_text p {
+  line-height: 1.7;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+}
+
+.home_buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn_primary {
+  background: var(--accent-color);
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn_primary:hover {
+  background: var(--accent-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(254, 103, 0, 0.3);
+}
+
+.btn_whatsapp {
+  background: #25d366;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn_whatsapp:hover {
+  background: #1ebe57;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(37, 211, 102, 0.3);
+}
+
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  z-index: 101;
+  color: white;
+}
+
+.header.scrolled .hamburger {
+  color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 20px;
+  }
+
+  .header.scrolled {
+    padding: 15px 20px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    height: 100vh;
+    background: var(--bg-primary);
+    padding: 80px 20px;
+    transition: right 0.4s ease;
+    box-shadow: -5px 0 20px var(--shadow-color);
+    z-index: 100;
+  }
+
+  .nav.active {
+    right: 0;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+  }
+
+  .nav a {
+    color: var(--text-primary);
+    font-size: 1.2rem;
+  }
+
+  .home {
+    padding: 30px;
+    min-height: 500px;
+  }
+
+  .home_text {
+    max-width: 100%;
+  }
+
+  .home_text h1 {
+    font-size: 2rem;
+  }
+
+  .home_text h2 {
+    font-size: 1.5rem;
+  }
+
+  .home_buttons {
+    flex-direction: column;
+  }
+}

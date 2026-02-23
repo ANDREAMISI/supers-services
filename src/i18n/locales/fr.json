@@ -1,0 +1,142 @@
+{
+  "header": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "clients": "Clients",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Innovation et Précision au cœur",
+    "subtitle1": "De notre",
+    "subtitle2": "impression",
+    "description": "Ets Supers Services est une entreprise congolaise dynamique basée à Kananga, spécialisée dans la communication visuelle, l'imprimerie, la décoration, le nettoyage professionnel et les services généraux.",
+    "contactBtn": "Nous contacter"
+  },
+  "about": {
+    "title": "À propos de nous",
+    "creation": "Création",
+    "creationDesc1": "Ets Supers Services est une entreprise individuelle de droit congolais créée le 27 août 2020.",
+    "creationDesc2": "Elle est enregistrée au Registre de Commerce et du Crédit Mobilier (RCCM) sous le numéro :",
+    "rccm": "CD/KGA/RCCM/20-A-00044",
+    "taxNumber": "Numéro d'Impôt : A2042180W",
+    "nationalId": "Numéro d'Identification Nationale : 15-G4701-N65782Y",
+    "objective": "Objectif",
+    "objectiveDesc": "L'entreprise a été créée à Kananga dans le but d'améliorer l'accès et la qualité des services de :",
+    "services": {
+      "visualCom": "Communication visuelle",
+      "printing": "Impression et reproduction",
+      "decoration": "Décoration",
+      "general": "Services généraux"
+    },
+    "vision": "Vision",
+    "visionDesc": "Notre vision est de toujours satisfaire notre clientèle en proposant :",
+    "visionPoints": {
+      "quality": "Une large gamme de services de qualité",
+      "prices": "Des prix très compétitifs",
+      "delays": "Des délais de livraison optimisés"
+    }
+  },
+  "services": {
+    "title": "Nos Services",
+    "printing": {
+      "title": "Imprimerie, Sérigraphie & Photographie",
+      "items": [
+        "Impression sur supports variés",
+        "Photocopie noir & couleur",
+        "Photos passeport professionnelles",
+        "Impression grand format",
+        "Conception graphique",
+        "Reliure & plastification"
+      ]
+    },
+    "painting": {
+      "title": "Peinture & Décoration",
+      "items": [
+        "Travaux de peinture bâtiment",
+        "Panneaux publicitaires",
+        "Décoration intérieure & extérieure",
+        "Fabrication locale de peinture"
+      ]
+    },
+    "cleaning": {
+      "title": "Nettoyage & Entretien",
+      "items": [
+        "Entretien bureaux & habitations",
+        "Dératisation & désinsectisation",
+        "Petites réparations",
+        "Jardinage & nettoyage véhicules"
+      ]
+    },
+    "catering": {
+      "title": "Service Traiteur",
+      "items": [
+        "Petit-déjeuner & collations",
+        "Dîners professionnels",
+        "Organisation de célébrations",
+        "Boissons & jus bio"
+      ]
+    },
+    "other": {
+      "title": "Autres Supers Services",
+      "items": [
+        "Organisation cérémonies",
+        "Traduction & interprétation",
+        "Transport & manutention",
+        "Maintenance informatique & réseau"
+      ]
+    }
+  },
+  "clients": {
+    "title": "Principaux Clients",
+    "intro": "Depuis sa création, <strong>Ets Supers Services</strong> a su gagner la confiance d'organisations nationales et internationales grâce à son professionnalisme, sa rigueur et le respect strict des délais.",
+    "un": {
+      "title": "Agences des Nations Unies",
+      "description": "Nous collaborons avec plusieurs agences onusiennes telles que le <strong>PNUD</strong>, le <strong>UNFPA</strong> et le <strong>UNHCR</strong>, en offrant des services adaptés aux standards internationaux."
+    },
+    "ngo": {
+      "title": "ONG Internationales",
+      "description": "Nos partenaires incluent des ONG de renommée mondiale comme <strong>Catholic Relief Services</strong>, <strong>COOPI</strong> et <strong>Cordaid</strong>, pour lesquelles nous fournissons des solutions fiables et efficaces."
+    },
+    "companies": {
+      "title": "Entreprises & Institutions",
+      "description": "Nous accompagnons également des entreprises privées, des institutions gouvernementales ainsi que des administrations publiques dans leurs différents projets."
+    },
+    "schools": {
+      "title": "Écoles & Associations",
+      "description": "Notre expertise s'étend aux écoles, églises, associations locales et particuliers, en proposant des services accessibles et de haute qualité."
+    },
+    "conclusion": "Notre engagement est de bâtir des partenariats durables basés sur la confiance, la qualité et l'excellence opérationnelle."
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "address": "Adresse",
+    "addressLine1": "N°58, Avenue des Cadets",
+    "addressLine2": "Quartier Kamayi",
+    "addressLine3": "Kananga – RDC",
+    "phone": "Téléphone",
+    "email": "Email",
+    "note": "Nous sommes disponibles pour vos demandes de devis, partenariats et collaborations professionnelles.",
+    "form": {
+      "name": "Votre nom",
+      "email": "Votre email",
+      "phone": "Votre téléphone",
+      "message": "Votre message",
+      "send": "Envoyer le message",
+      "sending": "Envoi...",
+      "success": "✅ Message envoyé avec succès !"
+    },
+    "whatsapp": "Contacter sur WhatsApp"
+  },
+  "footer": {
+    "company": "Ets Supers Services",
+    "description": "Entreprise congolaise enregistrée en République Démocratique du Congo, spécialisée dans l'imprimerie, la communication visuelle, la décoration, le nettoyage professionnel et les services généraux.",
+    "rccm": "CD/KGA/RCCM/20-A-00044",
+    "nationalId": "15-G4701-N65782Y",
+    "taxNumber": "A2042180W",
+    "quickLinks": "Liens Rapides",
+    "followUs": "Suivez-nous",
+    "followUsText": "Restez connectés avec nous sur nos plateformes sociales.",
+    "rights": "© 2026 Ets Supers Services - Tous droits réservés"
+  }
+}
